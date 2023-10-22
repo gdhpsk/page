@@ -41,7 +41,7 @@
 .scrollable {
   display: flex;
   flex-wrap: wrap;
-  height: 250px;
+  height: 260px;
   overflow-y: scroll;
 }
 
