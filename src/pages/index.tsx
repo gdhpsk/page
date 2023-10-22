@@ -30,7 +30,6 @@ export default function Home({age}:  {age: number}) {
           <li style={{textAlign: 'left'}}>Using frameworks like Node.js, Next.js, and Angular.js to make them</li>
           <li style={{textAlign: 'left'}}>Using a Linux Virtual Machine to self-host my own MongoDB server & all my websites.</li>
           <li style={{textAlign: 'left'}}>Developer of 5 Geometry Dash Lists:<br></br><br></br>
-          <div style={{display: "grid", placeItems: "center"}}>
           <div className={styles.scrollable}>
           <div>
               <img src="https://songfilehub.com/favicon.ico" width="200" height="200" />
@@ -57,7 +56,6 @@ export default function Home({age}:  {age: number}) {
               <br></br>
               <a href="https://gdmobilewrlist.com" target="_blank" style={{color: "whitesmoke"}}>Mobile World Records List</a>
             </div>
-          </div>
           </div>
           <br></br>
               {/* <ul style={{marginLeft: "20px"}}>
