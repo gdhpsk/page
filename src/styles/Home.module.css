@@ -39,7 +39,7 @@
 }
 
 .scrollable {
-  display: -webkit-box;
+  display: flex;
   flex-wrap: wrap;
   height: 250px;
   overflow-y: scroll;

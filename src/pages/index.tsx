@@ -93,7 +93,7 @@ export default function Home({age}:  {age: number}) {
         <div className={`${styles.title} ${styles.contact}`}>
           <h2 style={{textAlign: 'left'}}>Contact me!</h2>
           <br></br>
-          <div className={styles.scrollable} style={{height: "40px", overflowY: "hidden"}}>
+          <div className={styles.scrollable} style={{height: "50px"}}>
           <div>
                 <Button href="https://discord.com/users/703364595321929730" target="_blank">Discord</Button>
             </div>
