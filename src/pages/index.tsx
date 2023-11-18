@@ -25,8 +25,8 @@ export default function Home({age}:  {age: number}) {
           <h2 style={{textAlign: 'left'}}>Some things I have done in web development include:</h2>
           <br></br>
           <ul style={{paddingLeft: "20px"}}>
-          <li style={{textAlign: 'left'}}>Making $300 a month off of all my websites combined</li>
-          <li style={{textAlign: 'left'}}>Sponsored by iCreate Pro, the all in one Geometry Dash hacking tool for iOS</li>
+          <li style={{textAlign: 'left'}}>Making $200 a month off of all my websites combined</li>
+          <li style={{textAlign: 'left'}}>Made my own CDN: <a href="https://storage.hpsk.me" target="_blank" style={{color: "whitesmoke"}}>https://storage.hpsk.me</a></li>
           <li style={{textAlign: 'left'}}>Using frameworks like Node.js, Next.js, and Angular.js to make them</li>
           <li style={{textAlign: 'left'}}>Using a Linux Virtual Machine to self-host my own MongoDB server & all my websites.</li>
           <li style={{textAlign: 'left'}}>Developer of 5 Geometry Dash Lists:<br></br><br></br>
