@@ -303,7 +303,7 @@ export default function Home() {
               <Flex direction="column">
                 <Text size="6" weight="bold">Made my own <HoverCard.Root>
                   <HoverCard.Trigger>
-                    <Text color="cyan"><a href="https://storage.hpsk.me" style={{textDecoration: "none"}}>Storage Bucket</a></Text>
+                    <Text color="cyan"><a href="https://storage.hpsk.me" style={{textDecoration: "none", color: "inherit"}}>Storage Bucket</a></Text>
                   </HoverCard.Trigger>
                   <HoverCard.Content>
                     <Flex gap="4">
@@ -366,7 +366,7 @@ export default function Home() {
               <Flex direction="column">
                 <Text size="6" weight="bold">Made my own blog on <HoverCard.Root>
                   <HoverCard.Trigger>
-                    <Text color="cyan"><a href="https://medium.com/@gdhpsk" style={{textDecoration: "none"}}>Medium</a></Text>
+                    <Text color="cyan"><a href="https://medium.com/@gdhpsk" style={{textDecoration: "none", color: "inherit"}}>Medium</a></Text>
                   </HoverCard.Trigger>
                   <HoverCard.Content>
                     <Flex gap="4">
@@ -418,7 +418,7 @@ export default function Home() {
                   width={256}
                 ></img>
                 </Inset>
-                <Text size="6" weight="bold"><a href="https://songfilehub.com" style={{textDecoration: "none"}}>Song File Hub</a></Text>
+                <Text size="6" weight="bold"><a href="https://songfilehub.com" style={{textDecoration: "none", color: "inherit"}}>Song File Hub</a></Text>
                 <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash website that has NONG (Not on Newgrounds) songs available for use in-game!</Text>
                 </Flex>
             </Card>
@@ -431,7 +431,7 @@ export default function Home() {
                   width={256}
                 ></img>
                 </Inset>
-                <Text size="6" weight="bold"><a href="https://insanedemonlist.com" style={{textDecoration: "none"}}>GD Insane Demon List</a></Text>
+                <Text size="6" weight="bold"><a href="https://insanedemonlist.com" style={{textDecoration: "none", color: "inherit"}}>GD Insane Demon List</a></Text>
                 <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has insane demon levels based on difficulty, and shows what players have completed them!</Text>
                 </Flex>
             </Card>
@@ -445,7 +445,7 @@ export default function Home() {
                   width={256}
                 ></img>
                 </Inset>
-                <Text size="6" weight="bold"><a href="https://gdlrrlist.com" style={{textDecoration: "none"}}>GD LRR List</a></Text>
+                <Text size="6" weight="bold"><a href="https://gdlrrlist.com" style={{textDecoration: "none", color: "inherit"}}>GD LRR List</a></Text>
                 <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has the hardest levels beaten on 75FPS or below, and ranks them based on difficulty!</Text>
                 </Flex>
             </Card>
@@ -458,7 +458,7 @@ export default function Home() {
                   width={256}
                 ></img>
                 </Inset>
-                <Text size="6" weight="bold"><a href="https://mobilepointercrate.com" style={{textDecoration: "none"}}>GD HRR Mobile List</a></Text>
+                <Text size="6" weight="bold"><a href="https://mobilepointercrate.com" style={{textDecoration: "none", color: "inherit"}}>GD HRR Mobile List</a></Text>
                 <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has the hardest demons beaten on high refresh rate mobile, and ranks them based on difficulty!</Text>
                 </Flex>
             </Card>
@@ -472,7 +472,7 @@ export default function Home() {
                   width={256}
                 ></img>
                 </Inset>
-                <Text size="6" weight="bold"><a href="https://gdmobilewrlist.com" style={{textDecoration: "none"}}>GD Mobile World Records List</a></Text>
+                <Text size="6" weight="bold"><a href="https://gdmobilewrlist.com" style={{textDecoration: "none", color: "inherit"}}>GD Mobile World Records List</a></Text>
                 <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has every extreme demon in the game, and has Mobile World Records listed for them!</Text>
                 </Flex>
             </Card>
