@@ -183,10 +183,12 @@ export default function Home() {
           <Box>
             <Card>
               <Flex gap="6">
-                <img
+              <Avatar
+                  fallback="money"
+                  radius='full'
                   src="https://gallery.yopriceville.com/downloadfullsize/send/21205"
-                  width={64}
-                ></img>
+                 style={{width: "64px", height: "64px"}}
+                ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Making $200 a month off of all my websites combined</Text>
                 <Text size="2" style={{marginTop: "10px"}}>Using Google Adsense, I was able to put ads on 5 of my websites (Listed below), and make money off them.</Text>
@@ -196,10 +198,12 @@ export default function Home() {
             <br></br>
             <Card>
               <Flex gap="6">
-                <img
+              <Avatar
+                  fallback="storage upload"
+                  radius='full'
                   src="https://sirv.sirv.com/website/img/ico_1_up.svg"
-                  width={64}
-                ></img>
+                 style={{width: "64px", height: "64px"}}
+                ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Made my own <HoverCard.Root>
                   <HoverCard.Trigger>
@@ -227,10 +231,12 @@ export default function Home() {
             <br></br>
             <Card>
               <Flex gap="6">
-                <img
+              <Avatar
+                  fallback="next.js"
+                  radius='full'
                   src="https://cdn.worldvectorlogo.com/logos/next-js.svg"
-                  width={64}
-                ></img>
+                 style={{width: "64px", height: "64px"}}
+                ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Made using frameworks like Node.js, Next.js, and Angular.js</Text>
                 <Text size="2" style={{marginTop: "10px"}}>These frameworks all revolve around JavaScript, however all these frameworks behave very differently from each other.</Text>
@@ -240,10 +246,12 @@ export default function Home() {
             <br></br>
             <Card>
               <Flex gap="6">
-                <img
+              <Avatar
+                  fallback="digitalocean"
+                  radius='full'
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png"
-                  width={64}
-                ></img>
+                 style={{width: "64px", height: "64px"}}
+                ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Using a Linux Virtual Machine to self-host my projects</Text>
                 <Text size="2" style={{marginTop: "10px"}}>Everything I use, from the CDN to my MongoDB data to my projects, are all hosted on 3 DigitalOcean virtual machines.</Text>
@@ -371,7 +379,7 @@ export default function Home() {
                 <Avatar
                 fallback={"xc image"}
                   src="https://i0.wp.com/www.designs4screen.com/wp-content/uploads/2019/08/No-Excuses-XC.png?fit=1800%2C1800&ssl=1"
-                  style={{width: "70px", height: "70px"}}
+                  style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Represented my school team in both cross country and track and field</Text>
@@ -384,7 +392,7 @@ export default function Home() {
               <Flex gap="6">
                 <Avatar
                   src="https://athleticsweekly.com/wp-content/uploads/2021/08/4x400m-W-hurdles-.png"
-                  style={{width: "70px", height: "70px"}}
+                  style={{width: "64px", height: "64px"}}
                   fallback={"4x400m relay team"}
                 ></Avatar>
               <Flex direction="column">
@@ -396,10 +404,12 @@ export default function Home() {
             <br></br>
             <Card>
               <Flex gap="6">
-                <img
+              <Avatar
+                  fallback="timer"
+                  radius='full'
                   src="https://cdn-icons-png.flaticon.com/512/3937/3937859.png"
-                  width={64}
-                ></img>
+                 style={{width: "64px", height: "64px"}}
+                ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold" style={{marginTop: "15px"}}>Fastest open 400m time is 1:01</Text>
               </Flex>
@@ -408,10 +418,12 @@ export default function Home() {
             <br></br>
             <Card>
               <Flex gap="6">
-                <img
+              <Avatar
+                  fallback="timer"
+                  radius='full'
                   src="https://cdn-icons-png.flaticon.com/512/3937/3937859.png"
-                  width={64}
-                ></img>
+                 style={{width: "64px", height: "64px"}}
+                ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold" style={{marginTop: "15px"}}>6:02 Mile Time</Text>
               </Flex>
@@ -421,7 +433,7 @@ export default function Home() {
             <Card>
               <Flex gap="6">
                 <Avatar
-                  fallback="GD logo"
+                  fallback="timer"
                   radius='full'
                   src="https://cdn-icons-png.flaticon.com/512/3937/3937859.png"
                  style={{width: "64px", height: "64px"}}
@@ -480,7 +492,7 @@ export default function Home() {
                 <Avatar
                 fallback={"black belt"}
                   src="https://img.freepik.com/premium-vector/karate-belt-black-color-isolated-white-background-design-icon-japanese-martial-art-flat-style-vector-illustration_186802-5137.jpg"
-                  style={{width: "70px", height: "70px"}}
+                  style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">1st Degree Black Belt @ West Coast</Text>
@@ -493,7 +505,7 @@ export default function Home() {
               <Flex gap="6">
                 <Avatar
                   src="https://edsurge.imgix.net/uploads/post/image/14200/grading-1622052736.png?auto=compress%2Cformat&crop=true&h=486&w=1200"
-                  style={{width: "70px", height: "70px"}}
+                  style={{width: "64px", height: "64px"}}
                   fallback={"helping out"}
                 ></Avatar>
               <Flex direction="column">
@@ -507,7 +519,7 @@ export default function Home() {
               <Flex gap="6">
               <Avatar
                   src="https://www.master-sh-yu.com/wp-content/uploads/2019/08/XqffXVMGSgIMpzBxinvoQ-e1575654366554.jpg"
-                  style={{width: "70px", height: "70px"}}
+                  style={{width: "64px", height: "64px"}}
                   fallback={"tournament"}
                 ></Avatar>
               <Flex direction="column">
@@ -521,7 +533,7 @@ export default function Home() {
               <Flex gap="6">
               <Avatar
                   src="https://i.insider.com/51eea9ad69bedd0b6f00000c?width=600&format=jpeg"
-                  style={{width: "70px", height: "70px"}}
+                  style={{width: "64px", height: "64px"}}
                   fallback={"tricks"}
                 ></Avatar>
               <Flex direction="column">
