@@ -171,8 +171,8 @@ export default function Home() {
               ></img>
             </Inset> : ""}
             <Flex direction="column" style={{paddingRight: "30px"}}>
-              <Text size="8" weight="bold" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "40px"}}>Things I've done in Web Development</Text>
-              <Text size="4" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "15px"}}>This part of the page will display everything I've done related to making websites.</Text>
+              <Text size="8" weight="bold" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "40px"}}>Things I&apos;ve done in Web Development</Text>
+              <Text size="4" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "15px"}}>This part of the page will display everything I&apos;ve done related to making websites.</Text>
             </Flex>
             </Flex>
           </Card>
@@ -214,7 +214,7 @@ export default function Home() {
                       ></Avatar>
                       <Flex direction="column">
                         <Text size="4" weight="bold">Hpskloud</Text>
-                        <Text size="2" style={{marginTop: "5px"}}>Hpsk's very own personal storage bucket, very cool right?</Text>
+                        <Text size="2" style={{marginTop: "5px"}}>Hpsk&apos;s very own personal storage bucket, very cool right?</Text>
                       </Flex>
                     </Flex>
                   </HoverCard.Content>
@@ -356,8 +356,8 @@ export default function Home() {
               ></img>
             </Inset> : ""}
             <Flex direction="column" style={{paddingRight: "30px"}}>
-              <Text size="8" weight="bold" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "40px"}}>Things I've done in Running</Text>
-              <Text size="4" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "15px"}}>This part of the page will display everything I've done related to running.</Text>
+              <Text size="8" weight="bold" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "40px"}}>Things I&apos;ve done in Running</Text>
+              <Text size="4" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "15px"}}>This part of the page will display everything I&apos;ve done related to running.</Text>
             </Flex>
             </Flex>
           </Card>
@@ -465,8 +465,8 @@ export default function Home() {
               ></img>
             </Inset> : ""}
             <Flex direction="column" style={{paddingRight: "30px"}}>
-              <Text size="8" weight="bold" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "40px"}}>Things I've done in Martial Arts</Text>
-              <Text size="4" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "15px"}}>This part of the page will display everything I've done related to martial arts.</Text>
+              <Text size="8" weight="bold" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "40px"}}>Things I&apos;ve done in Martial Arts</Text>
+              <Text size="4" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "15px"}}>This part of the page will display everything I&apos;ve done related to martial arts.</Text>
             </Flex>
             </Flex>
           </Card>
@@ -511,7 +511,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold" style={{marginTop: "15px"}}>Won first place in 2 tournaments for forms</Text>
-                <Text size="2" style={{marginTop: "10px"}}>Sometimes I go to locally hosted tournaments and compete to see how good I am. I've only won 1st twice, but I am still improving.</Text>
+                <Text size="2" style={{marginTop: "10px"}}>Sometimes I go to locally hosted tournaments and compete to see how good I am. I&apos;ve only won 1st twice, but I am still improving.</Text>
               </Flex>
               </Flex>
             </Card>
