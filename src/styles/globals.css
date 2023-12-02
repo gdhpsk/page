@@ -10,3 +10,15 @@
     opacity: 100%;
   }
 }
+
+button:hover {
+  cursor: url('/cursor.png'), auto;
+}
+
+.rt-HoverCardTrigger:hover {
+  cursor: url('/cursor.png'), auto;
+}
+
+a:hover {
+  cursor: url('/cursor.png'), auto;
+}

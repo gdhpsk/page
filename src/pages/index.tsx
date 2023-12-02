@@ -29,17 +29,24 @@ let sentences = [
 ];
 
 export default function Home() {
-  let intersect = [false, false, false]
   let used = false;
+  let [height, setHeight] = useState({total: 0, scroll: 0})
   let [intersected, setIntersected] = useState([false, false, false])
   let [information, setInformation] = useState('')
   let [codeSample, setCodeSample] = useState<any[]>([])
   let [width, setWidth] = useState({
     width: 0
   })
+  const getWidth = () => typeof document !== "undefined" ? document.body.clientWidth : 0
+  const getScrollHeight = () =>  typeof document !== "undefined" ?  document?.documentElement.scrollTop : 0;
+  useEffect(() => {
+    setHeight({total: document.documentElement.scrollHeight - document.documentElement.clientHeight, scroll: getScrollHeight()})
+    console.table(height)
+  }, [getScrollHeight()])
   useEffect(() => {
     if(used) return;
     used = true
+    let intersect = [false, false, false]
    for(let i = 0; i < document.getElementsByClassName("intersection").length; i++) {
     let observer = new IntersectionObserver(entry => {
         intersect[i] = entry[0].isIntersecting
@@ -50,8 +57,8 @@ export default function Home() {
    }
   })
   useEffect(() => {
-    setWidth({width: document.body.clientWidth})
-  }, [])
+    setWidth({width: getWidth()})
+  }, [getWidth()])
   useEffect(() => {
     let sent = sentences[1].split("nnn");
     (async () => {
@@ -81,9 +88,10 @@ export default function Home() {
         <Grid className='show' columns={width.width < 2000 ? "1" : "2"} style={{placeItems: "center"}}>
           <Box>
             <Box style={{position: "fixed", left: "30px", top: "35px", display: width.width < 1250 ? "none" : "block"}}>
-              <Button radius="full" style={{zIndex: 2, backgroundColor: "white", color: "black", position: "fixed", left: "19px"}}>S</Button>
-              <Box width="2" style={{top: "5%", position: "fixed", height: "90%", backgroundColor: "white"}}></Box>
-              <Button radius="full" style={{backgroundColor: "white", color: "black", bottom: "5%", position: "fixed", left: "19.5px"}}>E</Button>
+              <Button radius="full" style={{zIndex: 2, backgroundColor:  height.scroll > 0 ? "skyblue" : "white", color: "black", position: "fixed", left: "19px"}}>S</Button>
+              <Box width="2" style={{top: "5%", position: "fixed", height: "90%", backgroundColor:"white"}}></Box>
+              <Box width="2" style={{top: "5%", position: "fixed", height: `calc((${height.scroll} / ${height.total}) * 90%)`, backgroundColor: "skyblue"}}></Box>
+              <Button radius="full" style={{backgroundColor: height.scroll == height.total ? "skyblue" : "white", color: "black", bottom: "5%", position: "fixed", left: "19.5px"}}>E</Button>
             </Box>
             <Box>
               <Text size="9" weight="bold" style={{display: "inline-block", marginTop: "40vh", width: "100%", textAlign: "center"}}>Hello there! My name is{' '}
