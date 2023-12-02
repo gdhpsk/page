@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 let sentences = [
-  'I am a 14 year old web developer, runner, and martial artist. Let me show you some things around!',
+  'I am a 14 year old programmer, runner, and martial artist. Let me show you some things around!',
   `let str = "." + specifiedPath.name.split(".").at(-1)?.toLowerCase() || "bin"nnn
   let c_size = 1000000nnn
   let start = iOS() ? 0 : parseInt(req.headers.range?.split("=")?.[1] || "0")nnn
@@ -41,7 +41,6 @@ export default function Home() {
   const getScrollHeight = () =>  typeof document !== "undefined" ?  document?.documentElement.scrollTop : 0;
   useEffect(() => {
     setHeight({total: document.documentElement.scrollHeight - document.documentElement.clientHeight, scroll: getScrollHeight()})
-    console.table(height)
   }, [getScrollHeight()])
   useEffect(() => {
     if(used) return;
@@ -94,8 +93,27 @@ export default function Home() {
               <Button radius="full" style={{backgroundColor: height.scroll == height.total ? "skyblue" : "white", color: "black", bottom: "5%", position: "fixed", left: "19.5px"}}>E</Button>
             </Box>
             <Box>
-              <Text size="9" weight="bold" style={{display: "inline-block", marginTop: "40vh", width: "100%", textAlign: "center"}}>Hello there! My name is{' '}
+              <Text size="8" weight="bold" style={{display: "inline-block", marginTop: "40vh", width: "100%", textAlign: "center"}}>Hello there! My name is{' '}
               <HoverCard.Root>
+                  <HoverCard.Trigger>
+                    <Text color="cyan">Saarang</Text>
+                  </HoverCard.Trigger>
+                  <HoverCard.Content>
+                    <Flex gap="4">
+                      <Avatar
+                        size="5"
+                        fallback="divinity"
+                        radius="full"
+                        src="https://t4.ftcdn.net/jpg/05/37/54/49/360_F_537544995_T5NoJB3DtrDLPOZDtd16QqsS9fjQ6py9.jpg"
+                      ></Avatar>
+                      <Flex direction="column">
+                        <Text size="4" weight="bold">Saarang</Text>
+                        <Text size="2">One of the 1000 names of Lord Vishnu, also means love</Text>
+                      </Flex>
+                    </Flex>
+                  </HoverCard.Content>
+                </HoverCard.Root>
+                , more commonly known as <HoverCard.Root>
                   <HoverCard.Trigger>
                     <Text color="cyan">hpsk</Text>
                   </HoverCard.Trigger>
@@ -113,8 +131,7 @@ export default function Home() {
                       </Flex>
                     </Flex>
                   </HoverCard.Content>
-                </HoverCard.Root>
-                !</Text>
+                </HoverCard.Root>!</Text>
                 <br></br><br></br>
                 <Text size="5" style={{display: "inline-block", width: "100%"}} id="information">{information}<div style={{height: "20px", width: "2px", backgroundColor: "darkgray", display: information.length == sentences[0].length ? "none" : "inline-block"}}></div></Text>
               </Box>
@@ -152,15 +169,16 @@ export default function Home() {
               <br></br>
               <Text size="1" style={{lineHeight: "15px", display: "inline-block"}}>If you want me to make a site for you, hit me up on discord! Username is gdhpsk</Text>
             </Card>
+            {width.width >= 2000 ? <>
             <br></br>
             <br></br>
-            <Card style={{maxWidth: "600px", position: width.width >= 2000 ? "absolute" : "initial"}}>
+            <Card style={{maxWidth: "600px", position: "absolute"}}>
               <Text size="6" weight="bold">JavaScript</Text>
               <br></br>
               <Text size="3" style={{display: "inline-block", width: "100%"}} >{codeSample.map(e => <><br></br>{e}</>)}<div style={{height: "20px", width: "2px", backgroundColor: "darkgray", display: sentences[1].split("nnn")[15] == codeSample[15] ? "none" : "inline-block"}}></div></Text>
               <br></br>
               <Text size="1" style={{width: "100%", textAlign: "center", display: "inline-block"}}>Streaming Video</Text>
-            </Card>
+            </Card></> : ""}
           </Box>
         </Grid>
         <Box className="intersection">
@@ -180,13 +198,83 @@ export default function Home() {
               ></img>
             </Inset> : ""}
             <Flex direction="column" style={{paddingRight: "30px"}}>
-              <Text size="8" weight="bold" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "40px"}}>Things I&apos;ve done in Web Development</Text>
-              <Text size="4" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "15px"}}>This part of the page will display everything I&apos;ve done related to making websites.</Text>
+              <Text size="8" weight="bold" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "40px"}}>Things I&apos;ve done as a Programmer</Text>
+              <Text size="4" style={{display: "inline-block", width: "100%", textAlign: "center", marginTop: "15px"}}>This part of the page will display everything I&apos;ve done related to programming.</Text>
             </Flex>
             </Flex>
           </Card>
+          <br></br>
+          <br></br>
+          <Card style={{maxWidth: "1150px", width: width.width <= 700 ? width.width : "auto"}}>
+              <Flex gap="6">
+              <Avatar
+                  fallback="next.js"
+                  radius='full'
+                  src="https://news.utexas.edu/wp-content/uploads/2021/01/TCE_BlogPostImage_ResumeBuilding-100-600x400-c-default.jpg"
+                 style={{width: "64px", height: "64px"}}
+                ></Avatar>
+              <Flex direction="column">
+                <Text size="6" weight="bold">My Programming Resume</Text>
+                <Text size="2" style={{marginTop: "10px", lineHeight: "33px"}}>If you want to see more information about what I do, click <Dialog.Root>
+                    <Dialog.Trigger><Button variant="soft">here</Button></Dialog.Trigger>
+                    <Dialog.Content style={{maxWidth: "600px"}}>
+                      <Dialog.Title size="8">Coding Resume</Dialog.Title>
+                      <Box style={{marginTop: "30px"}}>
+                        <Text size='5' weight="bold">Machines Used</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>DigitalOcean virtual machines: SFO, NYC, TOR</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Operating Systems</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Windows, Linux</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Server Proxies</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Nginx</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Databases</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>MongoDB, Firebase</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">API Types</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>REST</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Languages I know</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Node.js, JavaScript, Next.js, Angular.js, EJS, MQL, Python, C++</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Backend Server Frameworks</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js Serverless Functions, raw HTTP library</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Frontend UI Frameworks</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Bootstrap, RadixUI</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Some Concepts I Know</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>WebSockets, Web Push notifications, Discord API, Schemas, Transactions, Streaming Content, MIME types, CORS, Multi-threaded JS, Tensorflow (basic), Service Workers, IntersectionObservor, Real-time application, Server Proxy, Server-Side rendering, Client-side rendering, Static Site Generation</Text>
+                      </Box>
+                      <br></br>
+                      <Dialog.Close style={{marginTop: "30px"}}>
+                        <Button color="red">Close</Button>
+                      </Dialog.Close>
+                    </Dialog.Content>
+                  </Dialog.Root> for more info.</Text>
+              </Flex>
+              </Flex>
+            </Card>
         </Grid>
-        <Box style={{marginTop: "150px"}}></Box>
+        <Box style={{marginTop: "90px"}}></Box>
         <Grid columns={width.width < 2000 ? "1" : "2"} style={{placeItems: "center", opacity: intersected[0] ? "initial" : 0}} className={intersected[0] ? "show" : ""}>
           <Box>
             <Card>
@@ -247,61 +335,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Made using frameworks like Node.js, Next.js, and Angular.js</Text>
-                <Text size="2" style={{marginTop: "10px", lineHeight: "33px"}}>These frameworks all revolve around JavaScript, however all these frameworks behave very differently from each other. Click <Dialog.Root>
-                    <Dialog.Trigger><Button variant="soft">here</Button></Dialog.Trigger>
-                    <Dialog.Content style={{maxWidth: "600px"}}>
-                      <Dialog.Title size="8">Coding Resume</Dialog.Title>
-                      <Box style={{marginTop: "30px"}}>
-                        <Text size='5' weight="bold">Machines Used</Text>
-                        <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>DigitalOcean virtual machines: SFO, NYC, TOR</Text>
-                      </Box>
-                      <Box style={{marginTop: "20px"}}>
-                        <Text size='5' weight="bold">Operating Systems</Text>
-                        <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Windows, Linux</Text>
-                      </Box>
-                      <Box style={{marginTop: "20px"}}>
-                        <Text size='5' weight="bold">Server Proxies</Text>
-                        <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Nginx</Text>
-                      </Box>
-                      <Box style={{marginTop: "20px"}}>
-                        <Text size='5' weight="bold">Databases</Text>
-                        <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>MongoDB, Firebase</Text>
-                      </Box>
-                      <Box style={{marginTop: "20px"}}>
-                        <Text size='5' weight="bold">API Types</Text>
-                        <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>REST</Text>
-                      </Box>
-                      <Box style={{marginTop: "20px"}}>
-                        <Text size='5' weight="bold">Languages I know</Text>
-                        <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Node.js, JavaScript, Next.js, Angular.js, EJS, MQL, Python, C++</Text>
-                      </Box>
-                      <Box style={{marginTop: "20px"}}>
-                        <Text size='5' weight="bold">Backend Server Frameworks</Text>
-                        <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js Serverless Functions, raw HTTP library</Text>
-                      </Box>
-                      <Box style={{marginTop: "20px"}}>
-                        <Text size='5' weight="bold">Frontend UI Frameworks</Text>
-                        <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Bootstrap, RadixUI</Text>
-                      </Box>
-                      <Box style={{marginTop: "20px"}}>
-                        <Text size='5' weight="bold">Some Concepts I Know</Text>
-                        <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>WebSockets, Web Push notifications, Discord API, Schemas, Transactions, Streaming Content, MIME types, CORS, Multi-threaded JS, Tensorflow (basic), Service Workers, IntersectionObservor, Real-time application, Server Proxy, Server-Side rendering, Client-side rendering, Static Site Generation</Text>
-                      </Box>
-                      <br></br>
-                      <Dialog.Close style={{marginTop: "30px"}}>
-                        <Button color="red">Close</Button>
-                      </Dialog.Close>
-                    </Dialog.Content>
-                  </Dialog.Root> for more info.</Text>
+                <Text size="2" style={{marginTop: "10px"}}>These frameworks all revolve around JavaScript, however all these frameworks behave very differently from each other.</Text>
               </Flex>
               </Flex>
             </Card>
@@ -349,7 +383,11 @@ export default function Home() {
                     </Flex>
                   </HoverCard.Content>
                 </HoverCard.Root></Text>
-                <Text size="2" style={{marginTop: "10px"}}>Everything I use, from the CDN to my MongoDB data to my projects, are all hosted on 3 DigitalOcean virtual machines.</Text>
+                <Text size="2" style={{marginTop: "10px"}}>I've made a blog on medium so that I can keep track of everything I've done so far as a programmer. Here is a link to 2 of them:<br></br>
+                <Text size="2" color="cyan" style={{marginTop: "10px", display: "inline-block"}}><a href="https://medium.com/@gdhpsk/how-i-made-my-own-locally-hosted-mongodb-instance-using-ubuntu-314a0f253f99" style={{color: "inherit", textDecoration: "none"}}>Locally hosted MongoDB</a></Text>
+                <br></br>
+                <Text size="2" color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-hpskloud-my-very-own-storage-bucket-c2575b9626bb" style={{color: "inherit", textDecoration: "none"}}>Hpskloud: how I made it</a></Text>
+                </Text>
               </Flex>
               </Flex>
             </Card>
