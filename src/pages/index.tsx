@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import {Grid, Box, Button, Text, HoverCard, Flex, Avatar, Card, Inset} from "@radix-ui/themes"
+import {Grid, Box, Button, Text, HoverCard, Flex, Avatar, Card, Inset, Dialog} from "@radix-ui/themes"
 import styles from '@/styles/Home.module.css'
 import { useEffect, useState } from 'react'
 
@@ -247,7 +247,61 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Made using frameworks like Node.js, Next.js, and Angular.js</Text>
-                <Text size="2" style={{marginTop: "10px"}}>These frameworks all revolve around JavaScript, however all these frameworks behave very differently from each other.</Text>
+                <Text size="2" style={{marginTop: "10px", lineHeight: "33px"}}>These frameworks all revolve around JavaScript, however all these frameworks behave very differently from each other. Click <Dialog.Root>
+                    <Dialog.Trigger><Button variant="soft">here</Button></Dialog.Trigger>
+                    <Dialog.Content style={{maxWidth: "600px"}}>
+                      <Dialog.Title size="8">Coding Resume</Dialog.Title>
+                      <Box style={{marginTop: "30px"}}>
+                        <Text size='5' weight="bold">Machines Used</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>DigitalOcean virtual machines: SFO, NYC, TOR</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Operating Systems</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Windows, Linux</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Server Proxies</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Nginx</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Databases</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>MongoDB, Firebase</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">API Types</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>REST</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Languages I know</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Node.js, JavaScript, Next.js, Angular.js, EJS, MQL, Python, C++</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Backend Server Frameworks</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js Serverless Functions, raw HTTP library</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Frontend UI Frameworks</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Bootstrap, RadixUI</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Some Concepts I Know</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>WebSockets, Web Push notifications, Discord API, Schemas, Transactions, Streaming Content, MIME types, CORS, Multi-threaded JS, Tensorflow (basic), Service Workers, IntersectionObservor, Real-time application, Server Proxy, Server-Side rendering, Client-side rendering, Static Site Generation</Text>
+                      </Box>
+                      <br></br>
+                      <Dialog.Close style={{marginTop: "30px"}}>
+                        <Button color="red">Close</Button>
+                      </Dialog.Close>
+                    </Dialog.Content>
+                  </Dialog.Root> for more info.</Text>
               </Flex>
               </Flex>
             </Card>
@@ -262,6 +316,39 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Using a Linux Virtual Machine to self-host my projects</Text>
+                <Text size="2" style={{marginTop: "10px"}}>Everything I use, from the CDN to my MongoDB data to my projects, are all hosted on 3 DigitalOcean virtual machines.</Text>
+              </Flex>
+              </Flex>
+            </Card>
+            <br></br>
+            <Card>
+              <Flex gap="6">
+              <Avatar
+                  fallback="medium"
+                  radius='full'
+                  src="https://miro.medium.com/v2/resize:fit:2400/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"
+                 style={{width: "64px", height: "64px"}}
+                ></Avatar>
+              <Flex direction="column">
+                <Text size="6" weight="bold">Made my own blog on <HoverCard.Root>
+                  <HoverCard.Trigger>
+                    <Text color="cyan"><a href="https://medium.com/@gdhpsk" style={{textDecoration: "none"}}>Medium</a></Text>
+                  </HoverCard.Trigger>
+                  <HoverCard.Content>
+                    <Flex gap="4">
+                      <Avatar
+                        size="5"
+                        fallback="gdhpsk"
+                        radius="full"
+                        src="https://miro.medium.com/v2/resize:fit:2400/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"
+                      ></Avatar>
+                      <Flex direction="column">
+                        <Text size="4" weight="bold">Medium</Text>
+                        <Text size="2" style={{marginTop: "5px"}}>A blog posting site that I used to put my articles</Text>
+                      </Flex>
+                    </Flex>
+                  </HoverCard.Content>
+                </HoverCard.Root></Text>
                 <Text size="2" style={{marginTop: "10px"}}>Everything I use, from the CDN to my MongoDB data to my projects, are all hosted on 3 DigitalOcean virtual machines.</Text>
               </Flex>
               </Flex>
