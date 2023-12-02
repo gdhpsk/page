@@ -453,7 +453,7 @@ export default function Home() {
           <Card style={{maxWidth: "1150px", width: width.width <= 700 ? width.width : "auto", height: width.width <= 700 ? "auto" : "200px"}}>
           {width.width <= 700 ? <Inset clip="padding-box" side="top">
               <img
-                src="https://static.vecteezy.com/system/resources/previews/012/005/167/original/running-silhouettes-trail-running-marathon-runner-jogging-outdoor-sports-exercise-fitness-healthy-lifestyle-watercolor-png.png"
+                src="/martial_arts.png"
                 width={width.width}
               ></img>
             </Inset> : ""}
@@ -534,7 +534,7 @@ export default function Home() {
                 <Grid columns="1" gap="6" style={{marginTop: width.width < 2000 ? "100px" : 0}}>
                   <Box>
                   <img
-                      src="https://media.tenor.com/QB4WVpO_4hwAAAAd/540-taekwondo.gif"
+                      src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbec5ebb-6f13-47da-b1dd-fd5ec5990ed1/dcbjkq6-e303a5cd-a2d3-430e-bcee-92e693ba0d09.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZWM1ZWJiLTZmMTMtNDdkYS1iMWRkLWZkNWVjNTk5MGVkMVwvZGNiamtxNi1lMzAzYTVjZC1hMmQzLTQzMGUtYmNlZS05MmU2OTNiYTBkMDkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.mC5zS5-kRTzxhPB043ukffSNASq4IdTC9bbeACy880Q"
                       style={{width: "min(100%, 400px)", paddingLeft:  width.width > 700 ? "25%" : "0%"}}
                     ></img>
                     <br></br>
