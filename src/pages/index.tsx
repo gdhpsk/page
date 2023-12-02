@@ -112,9 +112,9 @@ export default function Home() {
               </Box>
           </Box>
           <Box style={{marginTop: width.width < 2000 ? "100px" : 0}}>
-          <Card style={{width: "350px"}}>
+          <Card style={{maxWidth: "600px"}}>
             <Text size="5" style={{width: "100%", display: "inline-block", textAlign: "center"}} weight="bold">My Social Contacts</Text>
-              <Grid columns="3" gap="8" style={{marginTop: "20px"}}>
+              <Grid columns="3" gap="9" style={{marginTop: "20px"}}>
                 <Box>
                     <Button color="blue" onClick={() => window.location.href = "https://discord.com/users/703364595321929730"}>
                         Discord
@@ -144,6 +144,7 @@ export default function Home() {
               <br></br>
               <Text size="1" style={{lineHeight: "15px", display: "inline-block"}}>If you want me to make a site for you, hit me up on discord! Username is gdhpsk</Text>
             </Card>
+            <br></br>
             <br></br>
             <Card style={{maxWidth: "600px", position: width.width >= 2000 ? "absolute" : "initial"}}>
               <Text size="6" weight="bold">JavaScript</Text>
