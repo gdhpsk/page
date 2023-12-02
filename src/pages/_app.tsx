@@ -6,7 +6,7 @@ import Head from 'next/head';
 export default function App({ Component, pageProps }: AppProps) {
   return <>
     <Head>
-        <title>Hpsk's website</title>
+        <title>Hpsk&apos;s website</title>
     </Head>
     <Component {...pageProps} />
   </>
