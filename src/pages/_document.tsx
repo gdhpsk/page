@@ -1,20 +1,16 @@
+import { Theme } from '@radix-ui/themes'
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
     <Html lang="en">
-      <Head>
-      <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-          crossOrigin="anonymous"
-        />
-      </Head>
-      <body style={{backgroundColor: "gray"}}>
-        <Main />
-        <NextScript />
-      </body>
+      <Head />
+        <body>
+          <Theme appearance='dark' radius="full" accentColor='cyan'>
+            <Main />
+            <NextScript />
+          </Theme>
+        </body>
     </Html>
   )
 }
