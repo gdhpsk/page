@@ -247,7 +247,7 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Languages I know</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Node.js, JavaScript, Next.js, React.js, Angular.js, EJS, MQL, Python, C++</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Node.js, JavaScript, Next.js, React.js, Angular.js, Vue.js, EJS, MQL, Python, C++</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Backend Server Frameworks</Text>
