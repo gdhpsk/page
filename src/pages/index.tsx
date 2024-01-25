@@ -88,8 +88,8 @@ export default function Home() {
           <Box>
             <Box style={{position: "fixed", left: "30px", top: "35px", display: width.width < 1250 ? "none" : "block"}}>
               <Button radius="full" style={{zIndex: 2, backgroundColor:  height.scroll > 0 ? "skyblue" : "white", color: "black", position: "fixed", left: "19px"}}>S</Button>
-              <Box width="2" style={{top: "5%", position: "fixed", height: "90%", backgroundColor:"white"}}></Box>
-              <Box width="2" style={{top: "5%", position: "fixed", height: `calc((${height.scroll} / ${height.total}) * 90%)`, backgroundColor: "skyblue"}}></Box>
+              <Box width="2" style={{top: "3%", position: "fixed", height: "91%", backgroundColor:"white"}}></Box>
+              <Box width="2" style={{top: "3%", position: "fixed", height: `calc((${height.scroll} / ${height.total}) * 91%)`, backgroundColor: "skyblue"}}></Box>
               <Button radius="full" style={{backgroundColor: height.scroll == height.total ? "skyblue" : "white", color: "black", bottom: "5%", position: "fixed", left: "19.5px"}}>E</Button>
             </Box>
             <Box>
@@ -163,6 +163,11 @@ export default function Home() {
                 <Box>
                 <Button color="purple" onClick={() => window.location.href = "https://www.twitch.tv/gdhpsk"}>
                         Twitch
+                    </Button>
+                    <br></br>
+                    <br></br>
+                    <Button color="cyan" onClick={() => window.location.href = "https://ko-fi.com/gdhpsk"}>
+                        Donate via KoFi
                     </Button>
                 </Box>
               </Grid>
