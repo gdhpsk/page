@@ -252,12 +252,12 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Languages I know</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Node.js, JavaScript, Next.js, React.js, Angular.js, Vue.js, EJS, MQL, Python, C++</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Node.js, JavaScript, Next.js, React.js, Angular.js, Vue.js, EJS, MQL, Python, C++, MySQL, PostgreSQL</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Backend Server Frameworks</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js Serverless Functions, raw HTTP library</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js Serverless Functions, raw HTTP library, Prisma</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Frontend UI Frameworks</Text>
@@ -267,7 +267,7 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Some Concepts I Know</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>WebSockets, Web Push notifications, Discord API, Schemas, Transactions, Streaming Content, MIME types, CORS, Multi-threaded JS, Tensorflow (basic), Service Workers, IntersectionObservor, Real-time application, Server Proxy, Server-Side rendering, Client-side rendering, Static Site Generation</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>WebSockets, Web Push notifications, Discord API, Schemas, Transactions, Streaming Content, MIME types, CORS, Multi-threaded JS, Tensorflow (basic), Service Workers, IntersectionObservor, Real-time application, Server Proxy, Server-Side rendering, Client-side rendering, Static Site Generation, SMTP server, IMAP server, POP3 server, Email Security, Email Relay</Text>
                       </Box>
                       <br></br>
                       <Dialog.Close style={{marginTop: "30px"}}>
@@ -293,6 +293,21 @@ export default function Home() {
               <Flex direction="column">
                 <Text size="6" weight="bold">Making $200 a month off of all my websites combined</Text>
                 <Text size="2" style={{marginTop: "10px"}}>Using Google Adsense, I was able to put ads on 5 of my websites (Listed below), and make money off them.</Text>
+              </Flex>
+              </Flex>
+            </Card>
+            <br></br>
+            <Card>
+              <Flex gap="6">
+              <Avatar
+                  fallback="money"
+                  radius='full'
+                  src="https://imaginethatcreative.net/blog/wp-content/uploads/2023/06/2250206.png"
+                 style={{width: "64px", height: "64px"}}
+                ></Avatar>
+              <Flex direction="column">
+                <Text size="6" weight="bold">Made my own Email Server</Text>
+                <Text size="2" style={{marginTop: "10px"}}>Using postfix and dovecot, I made an SMTPS and an IMAPS server on my VM. I currently use it for my email {"=>"} gdhpsk@hpsk.me</Text>
               </Flex>
               </Flex>
             </Card>
