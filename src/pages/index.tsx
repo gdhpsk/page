@@ -257,12 +257,12 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Backend Server Frameworks</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js Serverless Functions, raw HTTP library, Prisma</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js App Router & Pages Router, raw HTTP library, Prisma</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Frontend UI Frameworks</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Bootstrap, RadixUI, tailwind</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Bootstrap, RadixUI, tailwind, FontAwesome</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Some Concepts I Know</Text>
