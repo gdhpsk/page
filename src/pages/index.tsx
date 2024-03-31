@@ -403,7 +403,7 @@ export default function Home() {
                     </Flex>
                   </HoverCard.Content>
                 </HoverCard.Root></Text>
-                <Text size="2" style={{marginTop: "10px"}}>I&apos;ve made a blog on medium so that I can keep track of everything I&apos;ve done so far as a programmer. Here is a link to 2 of them:
+                <Text size="2" style={{marginTop: "10px"}}>I&apos;ve made a blog on medium so that I can keep track of everything I&apos;ve done so far as a programmer. Here is a link to 3 of them:
                 <ul style={{marginLeft: "-25px"}}>
                   <li><Text size="2" color="cyan" style={{display: "inline-block"}}><a href="https://medium.com/@gdhpsk/how-i-made-my-own-locally-hosted-mongodb-instance-using-ubuntu-314a0f253f99" style={{color: "inherit", textDecoration: "none"}}>Locally hosted MongoDB</a></Text></li>
                   <li><Text size="2" color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-hpskloud-my-very-own-storage-bucket-c2575b9626bb" style={{color: "inherit", textDecoration: "none"}}>Hpskloud: how I made it</a></Text></li>
