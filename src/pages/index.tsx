@@ -566,8 +566,8 @@ export default function Home() {
                   fallback={"4x400m relay team"}
                 ></Avatar>
               <Flex direction="column">
-                <Text size="6" weight="bold">Main event  in track was the 4x400, however I may do more events</Text>
-                <Text size="2" style={{marginTop: "10px"}}>I was part of the 4x400m relay team during track, however since it is very competitive, I may try out more events.</Text>
+                <Text size="6" weight="bold">Did 4x400m and High Jump for sectionals while representing my school</Text>
+                <Text size="2" style={{marginTop: "10px"}}>I was fortunate to be a part of the record breaking 4x4 team, clocking a time of 3:50. I personally ran first leg in around 56 seconds, which was the fastest split in the race</Text>
               </Flex>
               </Flex>
             </Card>
@@ -581,7 +581,7 @@ export default function Home() {
                  style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
-                <Text size="6" weight="bold" style={{marginTop: "15px"}}>Fastest open 400m time is 1:01</Text>
+                <Text size="6" weight="bold" style={{marginTop: "15px"}}>Fastest 400m time is 0:56</Text>
               </Flex>
               </Flex>
             </Card>
@@ -595,7 +595,7 @@ export default function Home() {
                  style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
-                <Text size="6" weight="bold" style={{marginTop: "15px"}}>6:02 Mile Time</Text>
+                <Text size="6" weight="bold" style={{marginTop: "15px"}}>2:30 800m Time</Text>
               </Flex>
               </Flex>
             </Card>
