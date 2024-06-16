@@ -232,7 +232,7 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Operating Systems</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Windows, Linux</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Windows, Ubuntu</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Server Proxies</Text>
@@ -242,7 +242,7 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Databases</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>MongoDB, Firebase</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>MongoDB, Firebase, MySQL, Supabase</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">API Types</Text>
@@ -257,12 +257,12 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Backend Server Frameworks</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js App Router & Pages Router, raw HTTP library, Prisma</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js App Router & Pages Router, raw HTTP library, Prisma, Node.js MongoDB Driver, AWS-S3, Discord.js</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Frontend UI Frameworks</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Bootstrap, RadixUI, tailwind, FontAwesome</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Bootstrap, RadixUI, tailwind, FontAwesome, Aceternity UI, Shadcn</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Some Concepts I Know</Text>
@@ -438,7 +438,7 @@ export default function Home() {
                  style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
-                <Text size="6" weight="bold">Developer of 5 Geometry Dash Lists</Text>
+                <Text size="6" weight="bold">Developer of 6 Geometry Dash Lists</Text>
                 <Text size="2" style={{marginTop: "10px"}}>My main business is making lists for a game called Geometry Dash, and putting ads on them to make money / pay for servers.</Text>
               </Flex>
               </Flex>
@@ -511,6 +511,19 @@ export default function Home() {
                 </Inset>
                 <Text size="6" weight="bold" color="cyan"><a href="https://gdmobilewrlist.com" style={{textDecoration: "none", color: "inherit"}}>GD Mobile World Records List</a></Text>
                 <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has every extreme demon in the game, and has Mobile World Records listed for them!</Text>
+                </Flex>
+            </Card>
+            <br></br>
+            <Card style={{maxWidth: "256px"}}>
+                    <Flex direction="column">
+                <Inset clip="padding-box" side="top">
+                <img
+                  src="https://gdplatformerlist.com/pl_icon.png"
+                  width={256}
+                ></img>
+                </Inset>
+                <Text size="6" weight="bold" color="cyan"><a href="https://gdplatformerlist.com" style={{textDecoration: "none", color: "inherit"}}>GD Platformer List</a></Text>
+                <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash platformer list that ranks BOTH rated and unrated platformer demons by difficulty!</Text>
                 </Flex>
             </Card>
                   </Box>
