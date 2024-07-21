@@ -131,7 +131,7 @@ export default function Home() {
             </Card>
           </Box>
         </Grid>
-       <Flex style={{paddingLeft: width.width < 1250 ? "20px" : "100px", justifyContent: "space-between", rowGap: "50px", alignItems: "flex-start", paddingRight: width.width < 1250 ? "20px" : "100px", marginTop: "15vh", flexWrap: "wrap"}} width={"100%"}>
+       <Flex style={{paddingLeft: width.width < 1250 ? "20px" : "100px",  justifyContent: "space-between", rowGap: "50px", alignItems: "flex-start", paddingRight: width.width < 1250 ? "20px" : "100px", marginTop: "15vh", flexWrap: "wrap"}} width={"100%"}>
        <Grid style={{placeItems: "center"}}>
           <Card style={{maxWidth: "1150px", width: width.width <= 1000 ? width.width : "auto"}}>
           {width.width <= 700 ? <Inset clip="padding-box" side="top">
@@ -602,7 +602,7 @@ export default function Home() {
                   style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
-                <Text size="6" weight="bold">1st Degree Black Belt @ West Coast</Text>
+                <Text size="6" weight="bold">2nd Degree Black Belt @ West Coast</Text>
                 <Text size="2" style={{marginTop: "10px"}}>West Coast is a school managed by Ernie Reyes, a well known and professional martial artist.</Text>
               </Flex>
               </Flex>
