@@ -94,6 +94,7 @@ export default function Home() {
           <Box style={{marginTop: width.width < 2000 ? "100px" : "5vh"}}>
           <Card style={{maxWidth: "600px"}}>
             <Text size="5" style={{width: "100%", display: "inline-block", textAlign: "center"}} weight="bold">My Social Contacts</Text>
+            <Text size="3" style={{width: "100%", display: "inline-block", textAlign: "center"}} weight="bold">E-Mail me at gdhpsk@hpsk.me for any inqueries!</Text>
               <Grid columns="3" gap="9" style={{marginTop: "20px"}}>
                 <Box>
                     <Button color="blue" onClick={() => window.location.href = "https://discord.com/users/703364595321929730"}>
@@ -371,10 +372,10 @@ export default function Home() {
                 </HoverCard.Root></Text>
                 <Text size="2" style={{marginTop: "10px"}}>I&apos;ve made a blog on medium so that I can keep track of everything I&apos;ve done so far as a programmer. Here are their links:
                 <ul style={{marginLeft: "-25px"}}>
-                  <li><Text size="2" color="cyan" style={{display: "inline-block"}}><a href="https://medium.com/@gdhpsk/how-i-made-my-own-locally-hosted-mongodb-instance-using-ubuntu-314a0f253f99" style={{color: "inherit", textDecoration: "none"}}>Locally hosted MongoDB</a></Text></li>
-                  <li><Text size="2" color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-hpskloud-my-very-own-storage-bucket-c2575b9626bb" style={{color: "inherit", textDecoration: "none"}}>Hpskloud: how I made it</a></Text></li>
-                  <li><Text size="2" color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-my-own-send-and-receive-email-server-07e0b7c41189" style={{color: "inherit", textDecoration: "none"}}>How I made my own send-and-receive email server</a></Text></li>
-                  <li><Text size="2" color="cyan"><a href="https://medium.com/@gdhpsk/how-i-was-able-to-host-my-services-on-my-home-network-668dd19dbead" style={{color: "inherit", textDecoration: "none"}}>How I was able to host my services on my home network</a></Text></li>
+                  <li><Text size="4" color="cyan" style={{display: "inline-block"}}><a href="https://medium.com/@gdhpsk/how-i-made-my-own-locally-hosted-mongodb-instance-using-ubuntu-314a0f253f99" style={{color: "inherit", textDecoration: "none"}}>Locally hosted MongoDB</a></Text></li>
+                  <li><Text size="4" color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-hpskloud-my-very-own-storage-bucket-c2575b9626bb" style={{color: "inherit", textDecoration: "none"}}>Hpskloud: how I made it</a></Text></li>
+                  <li><Text size="4" color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-my-own-send-and-receive-email-server-07e0b7c41189" style={{color: "inherit", textDecoration: "none"}}>How I made my own send-and-receive email server</a></Text></li>
+                  <li><Text size="4" color="cyan"><a href="https://medium.com/@gdhpsk/how-i-was-able-to-host-my-services-on-my-home-network-668dd19dbead" style={{color: "inherit", textDecoration: "none"}}>How I was able to host my services on my home network</a></Text></li>
                 </ul>
                 </Text>
               </Flex>
@@ -390,7 +391,7 @@ export default function Home() {
                  style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
-                <Text size="6" weight="bold">Made my own Email Server</Text>
+                <Text size="6" weight="bold">Made my own <Text color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-my-own-send-and-receive-email-server-07e0b7c41189" style={{textDecoration: "none", color: "inherit"}}>Email Server</a></Text></Text>
                 <Text size="2" style={{marginTop: "10px"}}>Using postfix and dovecot, I made an SMTPS and an IMAPS server on my physical server. I currently use it for my email {"=>"} gdhpsk@hpsk.me</Text>
               </Flex>
               </Flex>
@@ -407,7 +408,7 @@ export default function Home() {
               <Flex direction="column">
                 <Text size="6" weight="bold">Made my own <HoverCard.Root>
                   <HoverCard.Trigger>
-                    <Text color="cyan"><a href="https://storage.hpsk.me" style={{textDecoration: "none", color: "inherit"}}>Storage Bucket</a></Text>
+                    <Text color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-hpskloud-my-very-own-storage-bucket-c2575b9626bb" style={{textDecoration: "none", color: "inherit"}}>Storage Bucket</a></Text>
                   </HoverCard.Trigger>
                   <HoverCard.Content>
                     <Flex gap="4">
@@ -438,7 +439,7 @@ export default function Home() {
                  style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
-                <Text size="6" weight="bold">Using a Physical Linux Machine to self-host my projects</Text>
+                <Text size="6" weight="bold">Using a <Text color="cyan"><a href="https://medium.com/@gdhpsk/how-i-was-able-to-host-my-services-on-my-home-network-668dd19dbead" style={{textDecoration: "none", color: "inherit"}}>Physical Linux Machine</a></Text> to self-host my projects</Text>
                 <Text size="2" style={{marginTop: "10px"}}>Everything I use, from the CDN to my MongoDB data to my projects, are all hosted on my own physical servers, along with 2 DigitalOcean VMs for replica sets and AWS S3 for backups.</Text>
               </Flex>
               </Flex>
@@ -454,7 +455,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Won a Hackathon in my Category</Text>
-                <Text size="2" style={{marginTop: "10px"}}>I actually have made a website for a hackathon, and won in my category. If you are curious to see what it looks like, click <a href="https://cfc.hpsk.me" style={{textDecoration: "none", color: "lightblue"}}>here</a></Text>
+                <Text size="2" style={{marginTop: "10px"}}>I actually have made a website for a hackathon, and won in my category. If you are curious to see what it looks like, click <a href="https://cfc.hpsk.me" style={{textDecoration: "none", color: "lightblue", fontSize: "20px"}}>here</a></Text>
               </Flex>
               </Flex>
             </Card>
