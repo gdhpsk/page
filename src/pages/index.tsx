@@ -94,7 +94,7 @@ export default function Home() {
           <Box style={{marginTop: width.width < 2000 ? "100px" : "5vh"}}>
           <Card style={{maxWidth: "600px"}}>
             <Text size="5" style={{width: "100%", display: "inline-block", textAlign: "center"}} weight="bold">My Social Contacts</Text>
-            <Text size="3" style={{width: "100%", display: "inline-block", textAlign: "center"}} weight="bold">E-Mail me at gdhpsk@hpsk.me for any inqueries!</Text>
+            <Text size="3" style={{width: "100%", display: "inline-block", textAlign: "center"}}>E-Mail me at <a href="mailto:gdhpsk@hpsk.me" style={{textDecoration: "none", color: "skyblue"}}>gdhpsk@hpsk.me</a> for any inqueries!</Text>
               <Grid columns="3" gap="9" style={{marginTop: "20px"}}>
                 <Box>
                     <Button color="blue" onClick={() => window.location.href = "https://discord.com/users/703364595321929730"}>
@@ -251,7 +251,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Making $200 a month off of all my websites combined</Text>
-                <Text size="2" style={{marginTop: "10px"}}>Using Google Adsense, I was able to put ads on 5 of my websites (Listed below), and make money off them.</Text>
+                <Text size="2" style={{marginTop: "10px"}}>Using Google Adsense, I was able to put ads on 5 of my websites (Listed below), and make money off them. In total, I get around 10,000 unique visitors everyday!</Text>
               </Flex>
               </Flex>
               <br></br>
