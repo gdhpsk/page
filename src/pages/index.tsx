@@ -63,7 +63,7 @@ export default function Home() {
                       ></Avatar>
                       <Flex direction="column">
                         <Text size="4" weight="bold">Saarang</Text>
-                        <Text size="2">One of the 1000 names of Lord Vishnu, also means love</Text>
+                        <Text size="3">One of the 1000 names of Lord Vishnu, also means love</Text>
                       </Flex>
                     </Flex>
                   </HoverCard.Content>
@@ -82,7 +82,7 @@ export default function Home() {
                       ></Avatar>
                       <Flex direction="column">
                         <Text size="4" weight="bold">gdhpsk</Text>
-                        <Text size="2">Geometry Dash Hyper P*nis Space Katana</Text>
+                        <Text size="3">Geometry Dash Hyper P*nis Space Katana</Text>
                       </Flex>
                     </Flex>
                   </HoverCard.Content>
@@ -128,7 +128,7 @@ export default function Home() {
                 </Box>
               </Grid>
               <br></br>
-              <Text size="1" style={{lineHeight: "15px", display: "inline-block"}}>If you want me to make a site for you, hit me up on discord! Username is gdhpsk</Text>
+              <Text size="3" style={{lineHeight: "15px", display: "inline-block"}}>If you want me to make a site for you, hit me up on discord! Username is gdhpsk</Text>
             </Card>
           </Box>
         </Grid>
@@ -162,7 +162,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">My Programming Resume</Text>
-                <Text size="2" style={{marginTop: "10px", lineHeight: "33px"}}>If you want to see more information about what I do, click <Dialog.Root>
+                <Text size="3" style={{marginTop: "10px", lineHeight: "33px"}}>If you want to see more information about what I do, click <Dialog.Root>
                     <Dialog.Trigger><Button variant="soft">here</Button></Dialog.Trigger>
                     <Dialog.Content style={{maxWidth: "600px"}}>
                       <Dialog.Title size="8">Coding Resume</Dialog.Title>
@@ -236,7 +236,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Developer of 6 Geometry Dash Lists</Text>
-                <Text size="2" style={{marginTop: "10px"}}>My main business is making lists for a game called Geometry Dash, and putting ads on them to make money / pay for servers.</Text>
+                <Text size="3" style={{marginTop: "10px"}}>My main business is making lists for a game called Geometry Dash, and putting ads on them to make money / pay for servers.</Text>
               </Flex>
               </Flex>
             </Card>
@@ -251,7 +251,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Making $200 a month off of all my websites combined</Text>
-                <Text size="2" style={{marginTop: "10px"}}>Using Google Adsense, I was able to put ads on 5 of my websites (Listed below), and make money off them. In total, I get around 10,000 unique visitors everyday!</Text>
+                <Text size="3" style={{marginTop: "10px"}}>Using Google Adsense, I was able to put ads on 5 of my websites (Listed below), and make money off them. In total, I get around <b>10,000</b> unique visitors everyday!</Text>
               </Flex>
               </Flex>
               <br></br>
@@ -267,7 +267,7 @@ export default function Home() {
                 ></img>
                 </Inset>
                 <Text size="6" weight="bold" color="cyan"><a href="https://songfilehub.com" style={{textDecoration: "none", color: "inherit"}}>Song File Hub</a></Text>
-                <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash website that has NONG (Not on Newgrounds) songs available for use in-game!</Text>
+                <Text size="3" style={{marginTop: "10px"}}>A Geometry Dash website that has NONG (Not on Newgrounds) songs available for use in-game!</Text>
                 </Flex>
             </Card>
             <br></br>
@@ -280,7 +280,7 @@ export default function Home() {
                 ></img>
                 </Inset>
                 <Text size="6" weight="bold" color="cyan"><a href="https://insanedemonlist.com" style={{textDecoration: "none", color: "inherit"}}>GD Insane Demon List</a></Text>
-                <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has insane demon levels based on difficulty, and shows what players have completed them!</Text>
+                <Text size="3" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has insane demon levels based on difficulty, and shows what players have completed them!</Text>
                 </Flex>
             </Card>
                   </Box>
@@ -294,7 +294,7 @@ export default function Home() {
                 ></img>
                 </Inset>
                 <Text size="6" weight="bold" color="cyan"><a href="https://gdlrrlist.com" style={{textDecoration: "none", color: "inherit"}}>GD LRR List</a></Text>
-                <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has the hardest levels beaten on 75FPS or below, and ranks them based on difficulty!</Text>
+                <Text size="3" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has the hardest levels beaten on 75FPS or below, and ranks them based on difficulty!</Text>
                 </Flex>
             </Card>
             <br></br>
@@ -307,7 +307,7 @@ export default function Home() {
                 ></img>
                 </Inset>
                 <Text size="6" weight="bold" color="cyan"><a href="https://mobilepointercrate.com" style={{textDecoration: "none", color: "inherit"}}>GD HRR Mobile List</a></Text>
-                <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has the hardest demons beaten on high refresh rate mobile, and ranks them based on difficulty!</Text>
+                <Text size="3" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has the hardest demons beaten on high refresh rate mobile, and ranks them based on difficulty!</Text>
                 </Flex>
             </Card>
                   </Box>
@@ -321,7 +321,7 @@ export default function Home() {
                 ></img>
                 </Inset>
                 <Text size="6" weight="bold" color="cyan"><a href="https://gdmobilewrlist.com" style={{textDecoration: "none", color: "inherit"}}>GD Mobile World Records List</a></Text>
-                <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has every extreme demon in the game, and has Mobile World Records listed for them!</Text>
+                <Text size="3" style={{marginTop: "10px"}}>A Geometry Dash demonlist that has every extreme demon in the game, and has Mobile World Records listed for them!</Text>
                 </Flex>
             </Card>
             <br></br>
@@ -334,7 +334,7 @@ export default function Home() {
                 ></img>
                 </Inset>
                 <Text size="6" weight="bold" color="cyan"><a href="https://gdplatformerlist.com" style={{textDecoration: "none", color: "inherit"}}>GD Platformer List</a></Text>
-                <Text size="2" style={{marginTop: "10px"}}>A Geometry Dash platformer list that ranks BOTH rated and unrated platformer demons by difficulty!</Text>
+                <Text size="3" style={{marginTop: "10px"}}>A Geometry Dash platformer list that ranks BOTH rated and unrated platformer demons by difficulty!</Text>
                 </Flex>
             </Card>
                   </Box>
@@ -365,12 +365,12 @@ export default function Home() {
                       ></Avatar>
                       <Flex direction="column">
                         <Text size="4" weight="bold">Medium</Text>
-                        <Text size="2" style={{marginTop: "5px"}}>A blog posting site that I used to put my articles</Text>
+                        <Text size="3" style={{marginTop: "5px"}}>A blog posting site that I used to put my articles</Text>
                       </Flex>
                     </Flex>
                   </HoverCard.Content>
                 </HoverCard.Root></Text>
-                <Text size="2" style={{marginTop: "10px"}}>I&apos;ve made a blog on medium so that I can keep track of everything I&apos;ve done so far as a programmer. Here are their links:
+                <Text size="3" style={{marginTop: "10px"}}>I&apos;ve made a blog on medium so that I can keep track of everything I&apos;ve done so far as a programmer. Here are their links:
                 <ul style={{marginLeft: "-25px"}}>
                   <li><Text size="4" color="cyan" style={{display: "inline-block"}}><a href="https://medium.com/@gdhpsk/how-i-made-my-own-locally-hosted-mongodb-instance-using-ubuntu-314a0f253f99" style={{color: "inherit", textDecoration: "none"}}>Locally hosted MongoDB</a></Text></li>
                   <li><Text size="4" color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-hpskloud-my-very-own-storage-bucket-c2575b9626bb" style={{color: "inherit", textDecoration: "none"}}>Hpskloud: how I made it</a></Text></li>
@@ -392,7 +392,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Made my own <Text color="cyan"><a href="https://medium.com/@gdhpsk/how-i-made-my-own-send-and-receive-email-server-07e0b7c41189" style={{textDecoration: "none", color: "inherit"}}>Email Server</a></Text></Text>
-                <Text size="2" style={{marginTop: "10px"}}>Using postfix and dovecot, I made an SMTPS and an IMAPS server on my physical server. I currently use it for my email {"=>"} gdhpsk@hpsk.me</Text>
+                <Text size="3" style={{marginTop: "10px"}}>Using postfix and dovecot, I made an SMTPS and an IMAPS server on my physical server. I currently use it for my email {"=>"} gdhpsk@hpsk.me</Text>
               </Flex>
               </Flex>
             </Card>
@@ -420,12 +420,12 @@ export default function Home() {
                       ></Avatar>
                       <Flex direction="column">
                         <Text size="4" weight="bold">Hpskloud</Text>
-                        <Text size="2" style={{marginTop: "5px"}}>Hpsk&apos;s very own personal storage bucket, very cool right?</Text>
+                        <Text size="3" style={{marginTop: "5px"}}>Hpsk&apos;s very own personal storage bucket, very cool right?</Text>
                       </Flex>
                     </Flex>
                   </HoverCard.Content>
                 </HoverCard.Root></Text>
-                <Text size="2" style={{marginTop: "10px"}}>I made hpskloud using a DigitalOcean storage bucket, and custom virtual machine hosting.</Text>
+                <Text size="3" style={{marginTop: "10px"}}>I made hpskloud using a DigitalOcean storage bucket, and custom virtual machine hosting.</Text>
               </Flex>
               </Flex>
             </Card>
@@ -440,7 +440,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Using a <Text color="cyan"><a href="https://medium.com/@gdhpsk/how-i-was-able-to-host-my-services-on-my-home-network-668dd19dbead" style={{textDecoration: "none", color: "inherit"}}>Physical Linux Machine</a></Text> to self-host my projects</Text>
-                <Text size="2" style={{marginTop: "10px"}}>Everything I use, from the CDN to my MongoDB data to my projects, are all hosted on my own physical servers, along with 2 DigitalOcean VMs for replica sets and AWS S3 for backups.</Text>
+                <Text size="3" style={{marginTop: "10px"}}>Everything I use, from the CDN to my MongoDB data to my projects, are all hosted on my own physical servers, along with 2 DigitalOcean VMs for replica sets and AWS S3 for backups.</Text>
               </Flex>
               </Flex>
             </Card>
@@ -455,7 +455,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Won a Hackathon in my Category</Text>
-                <Text size="2" style={{marginTop: "10px"}}>I actually have made a website for a hackathon, and won in my category. If you are curious to see what it looks like, click <a href="https://cfc.hpsk.me" style={{textDecoration: "none", color: "lightblue", fontSize: "20px"}}>here</a></Text>
+                <Text size="3" style={{marginTop: "10px"}}>I actually have made a website for a hackathon, and won in my category. If you are curious to see what it looks like, click <a href="https://cfc.hpsk.me" style={{textDecoration: "none", color: "lightblue", fontSize: "20px"}}>here</a></Text>
               </Flex>
               </Flex>
             </Card>
@@ -494,7 +494,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Represented my school team in both cross country and track and field</Text>
-                <Text size="2" style={{marginTop: "10px"}}>In my local school close to where I live, I was able to represent them during competitions we had against other schools</Text>
+                <Text size="3" style={{marginTop: "10px"}}>In my local school close to where I live, I was able to represent them during competitions we had against other schools</Text>
               </Flex>
               </Flex>
             </Card>
@@ -508,7 +508,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Did 4x400m and High Jump for sectionals while representing my school</Text>
-                <Text size="2" style={{marginTop: "10px"}}>I was fortunate to be a part of the record breaking 4x4 team, clocking a time of 3:50. I personally ran first leg in around 56 seconds, which was the fastest split in the race</Text>
+                <Text size="3" style={{marginTop: "10px"}}>I was fortunate to be a part of the record breaking 4x4 team, clocking a time of 3:50. I personally ran first leg in around 56 seconds, which was the fastest split in the race</Text>
               </Flex>
               </Flex>
             </Card>
@@ -604,7 +604,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">2nd Degree Black Belt @ West Coast</Text>
-                <Text size="2" style={{marginTop: "10px"}}>West Coast is a school managed by Ernie Reyes, a well known and professional martial artist.</Text>
+                <Text size="3" style={{marginTop: "10px"}}>West Coast is a school managed by Ernie Reyes, a well known and professional martial artist.</Text>
               </Flex>
               </Flex>
             </Card>
@@ -618,7 +618,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Helped out for multiple tests & classes</Text>
-                <Text size="2" style={{marginTop: "10px"}}>Sometimes they need help during tests on Friday, so I would come over that day to help with testing.</Text>
+                <Text size="3" style={{marginTop: "10px"}}>Sometimes they need help during tests on Friday, so I would come over that day to help with testing.</Text>
               </Flex>
               </Flex>
             </Card>
@@ -632,7 +632,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold" style={{marginTop: "15px"}}>Won first place in 2 tournaments for forms</Text>
-                <Text size="2" style={{marginTop: "10px"}}>Sometimes I go to locally hosted tournaments and compete to see how good I am. I&apos;ve only won 1st twice, but I am still improving.</Text>
+                <Text size="3" style={{marginTop: "10px"}}>Sometimes I go to locally hosted tournaments and compete to see how good I am. I&apos;ve only won 1st twice, but I am still improving.</Text>
               </Flex>
               </Flex>
             </Card>
@@ -646,7 +646,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold" style={{marginTop: "15px"}}>Can do an Ariel and 540 kick</Text>
-                <Text size="2" style={{marginTop: "10px"}}>Look at the gifs to see examples</Text>
+                <Text size="3" style={{marginTop: "10px"}}>Look at the gifs to see examples</Text>
               </Flex>
               </Flex>
             </Card>
@@ -661,14 +661,14 @@ export default function Home() {
                       style={{width: "min(100%, 400px)", paddingLeft:  width.width > 700 ? "25%" : "0%"}}
                     ></img>
                     <br></br>
-                    <Text size="2" style={{width: "min(100%, 400px)", paddingLeft:  width.width > 700 ? "25%" : "0%", textAlign: "center", display: "inline-block"}}>Ariel</Text>
+                    <Text size="3" style={{width: "min(100%, 400px)", paddingLeft:  width.width > 700 ? "25%" : "0%", textAlign: "center", display: "inline-block"}}>Ariel</Text>
                     <br></br>
                     <img
                       style={{marginTop: "100px", width: "min(100%, 400px)", paddingLeft:  width.width > 700 ? "25%" : "0%"}}
                       src="https://media.tenor.com/QB4WVpO_4hwAAAAd/540-taekwondo.gif"
                     ></img>
                     <br></br>
-                    <Text size="2" style={{width: "min(100%, 400px)", textAlign: "center", display: "inline-block", paddingLeft:  width.width > 700 ? "25%" : "0%"}}>540 Tornado Kick</Text>
+                    <Text size="3" style={{width: "min(100%, 400px)", textAlign: "center", display: "inline-block", paddingLeft:  width.width > 700 ? "25%" : "0%"}}>540 Tornado Kick</Text>
                   </Box>
                 </Grid>
               </Box>
