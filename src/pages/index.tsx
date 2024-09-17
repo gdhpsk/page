@@ -172,6 +172,11 @@ export default function Home() {
                         <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Physical Server: <a href="https://www.amazon.com/dp/B0CH81C4K3?psc=1&ref=ppx_yo2ov_dt_b_product_details" style={{textDecoration: "none", color: "skyblue"}} target="_blank">GMKtec Mini PC N100</a>, DigitalOcean virtual machines: NYC, TOR</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
+                        <Text size='5' weight="bold">Storage Used</Text>
+                        <br></br>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Physical Server: <a href="https://www.amazon.com/dp/B06W9L34YC?ref=ppx_yo2ov_dt_b_fed_asin_title" style={{textDecoration: "none", color: "skyblue"}} target="_blank">StarTech hardware RAID 1</a> enclosure with two <a href="https://www.amazon.com/dp/B0CB7YDP9J?ref=ppx_yo2ov_dt_b_fed_asin_title" style={{textDecoration: "none", color: "skyblue"}} target="_blank">KingSpec M.2 SATA SSDs</a> mounted using local SMB, DigitalOcean AWS-S3 bucket</Text>
+                      </Box>
+                      <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Operating Systems</Text>
                         <br></br>
                         <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Windows 11, Ubuntu 22.04</Text>
@@ -189,7 +194,7 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">API Types</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>REST</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>REST, OpenAI spec</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Languages I know</Text>
@@ -199,7 +204,7 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Backend Server Frameworks</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js App Router & Pages Router, raw HTTP library, Prisma, Node.js MongoDB Driver, AWS-S3, Discord.js</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>Express.js, Next.js App Router & Pages Router, raw HTTP library, Prisma, Node.js MongoDB Driver, AWS-S3, Discord.js, Docker, PM2, vsftpd</Text>
                       </Box>
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Frontend UI Frameworks</Text>
@@ -209,7 +214,7 @@ export default function Home() {
                       <Box style={{marginTop: "20px"}}>
                         <Text size='5' weight="bold">Some Concepts I Know</Text>
                         <br></br>
-                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>WebSockets, Web Push notifications, Discord API, Schemas, Transactions, Streaming Content, MIME types, CORS, Multi-threaded JS, Tensorflow (basic), Service Workers, IntersectionObservor, Real-time application, Server Proxy, Server-Side rendering, Client-side rendering, Static Site Generation, SMTP server, IMAP server, POP3 server, Email Security, Email Relay, Cloudflare Tunneling, Port Forwarding, Static /  Dynamic IP, Dynamic DNS, NMAP</Text>
+                        <Text size="3" style={{display: "inline-block", marginTop: "5px"}}>WebSockets, Web Push notifications, Discord API, Schemas, Transactions, Streaming Content, MIME types, CORS, Multi-threaded JS, Tensorflow (basic), Service Workers, IntersectionObservor, Real-time application, Server Proxy, Server-Side rendering, Client-side rendering, Static Site Generation, SMTP server, IMAP server, POP3 server, Email Security, Email Relay, Cloudflare Tunneling, Port Forwarding, Static /  Dynamic IP, Dynamic DNS, NMAP, IPSecv2, WAN/LAN (router), VPN server, Network Attached Storage, Direct Attached Storage, RAID 0 / 1, FTP, FTPS, SFTP, SMB, fstab</Text>
                       </Box>
                       <br></br>
                       <Dialog.Close style={{marginTop: "30px"}}>
