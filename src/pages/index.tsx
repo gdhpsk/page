@@ -240,7 +240,7 @@ export default function Home() {
                  style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
-                <Text size="6" weight="bold">Developer of 6 Geometry Dash Lists</Text>
+                <Text size="6" weight="bold">Developer of 7 Geometry Dash Lists</Text>
                 <Text size="3" style={{marginTop: "10px"}}>My main business is making lists for a game called Geometry Dash, and putting ads on them to make money / pay for servers.</Text>
               </Flex>
               </Flex>
@@ -256,7 +256,7 @@ export default function Home() {
                 ></Avatar>
               <Flex direction="column">
                 <Text size="6" weight="bold">Making $200 a month off of all my websites combined</Text>
-                <Text size="3" style={{marginTop: "10px"}}>Using Google Adsense, I was able to put ads on 5 of my websites (Listed below), and make money off them. In total, I get around <b>10,000</b> unique visitors everyday!</Text>
+                <Text size="3" style={{marginTop: "10px"}}>Using Google Adsense, I was able to put ads on 7 of my websites (Listed below), and make money off them. In total, I get around <b>10,000</b> unique visitors everyday!</Text>
               </Flex>
               </Flex>
               <br></br>
@@ -340,6 +340,20 @@ export default function Home() {
                 </Inset>
                 <Text size="6" weight="bold" color="cyan"><a href="https://gdplatformerlist.com" style={{textDecoration: "none", color: "inherit"}}>GD Platformer List</a></Text>
                 <Text size="3" style={{marginTop: "10px"}}>A Geometry Dash platformer list that ranks BOTH rated and unrated platformer demons by difficulty!</Text>
+                </Flex>
+            </Card>
+                  </Box>
+                  <Box>
+            <Card style={{maxWidth: "256px"}}>
+                    <Flex direction="column">
+                <Inset clip="padding-box" side="top">
+                <img
+                  src="https://gdmobilelist.com/favicon.ico"
+                  width={256}
+                ></img>
+                </Inset>
+                <Text size="6" weight="bold" color="cyan"><a href="https://gdmobilelist.com" style={{textDecoration: "none", color: "inherit"}}>GD Mobile List</a></Text>
+                <Text size="3" style={{marginTop: "10px"}}>The official Geometry Dash list for mobile players</Text>
                 </Flex>
             </Card>
                   </Box>
@@ -555,7 +569,7 @@ export default function Home() {
                  style={{width: "64px", height: "64px"}}
                 ></Avatar>
               <Flex direction="column">
-                <Text size="6" weight="bold" style={{marginTop: "15px"}}>13:31 2 Mile Time</Text>
+                <Text size="6" weight="bold" style={{marginTop: "15px"}}>5:22 Mile Time</Text>
               </Flex>
               </Flex>
             </Card>
